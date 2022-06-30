@@ -59,7 +59,7 @@ jobs:
           infracost diff --path=${TF_ROOT} \
                         --format=json \
                         --compare-to=/tmp/infracost-base.json \
-                        --out-file=/tmp/infracost.json \ 
+                        --out-file=/tmp/infracost.json \
                         --project-name=infraaws
         env:
           INFRACOST_ENABLE_CLOUD: true
